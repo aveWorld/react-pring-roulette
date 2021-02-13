@@ -5,9 +5,6 @@ import { nanoid } from 'nanoid';
 import * as easings from 'd3-ease';
 import './App.css';
 
-// data
-import { data } from './data/brokenFang';
-
 function App() {
   console.log(data);
   const [bind, { width: screenWidth }] = useMeasure();
